@@ -1,3 +1,4 @@
+// 这种模式定义的私有成员在所有实例中是共享内存的
 var Component = (function() {
     //私有方法或属性定义区域
     var a = function() {};
